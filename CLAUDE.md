@@ -40,6 +40,6 @@ While the repo is public, also keep out personal contact details.
 ## Git conventions
 
 - Work directly on the default branch for note and memory commits — no PRs for content.
-- Pull before writing (`git pull origin main`) so you don't clobber notes synced from
-  the user's Obsidian app.
+- Pull before writing (`git pull`) so you don't clobber notes synced from the user's
+  Obsidian app.
 - Never delete or rewrite the user's notes without being asked.

@@ -7,7 +7,7 @@ description: Store a durable fact, preference, or lesson in Claude's long-term m
 
 Take what the user wants remembered and persist it to `Memory/`:
 
-1. `git pull origin main` first.
+1. `git pull` first (on the default branch).
 2. Pick the right file:
    - Facts about who the user is → `Memory/About Me.md`
    - How they like things done → `Memory/Preferences.md`
@@ -16,5 +16,5 @@ Take what the user wants remembered and persist it to `Memory/`:
    Bump the `updated:` frontmatter date.
 4. Never store secrets or credentials; while this repo is public, keep out personal
    contact details too. If the item is sensitive, say so instead of storing it.
-5. Commit as `memory: <what changed>` and `git push origin main`.
+5. Commit as `memory: <what changed>` and `git push`.
 6. Confirm in one line what was remembered and where.

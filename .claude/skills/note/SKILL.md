@@ -7,7 +7,8 @@ description: Capture a quick note into the Obsidian vault's Inbox and push it so
 
 Take the note text from the arguments (or the user's message) and:
 
-1. `git pull origin main` first, so you don't clobber notes synced from Obsidian.
+1. `git pull` first (on the default branch), so you don't clobber notes synced from
+   Obsidian.
 2. Create `Inbox/<YYYY-MM-DD> <short-title>.md` — derive a 3–6 word title from the
    content. Use today's date; if a file with that name exists, append the time (`HHMM`).
 3. Use this structure:
@@ -25,5 +26,5 @@ Take the note text from the arguments (or the user's message) and:
    ```
 
 4. Add `[[wikilinks]]` to existing vault notes only where clearly relevant.
-5. Commit as `note: <short-title>` and `git push origin main`.
+5. Commit as `note: <short-title>` and `git push`.
 6. Confirm to the user with the filename — one line, no ceremony.
